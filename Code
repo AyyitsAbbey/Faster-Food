@@ -1,1 +1,43 @@
 Title: Faster Food: A Fast Food Dating Simulator
+---
+This game is rated 18+, get some lotion, some tissues, and your Bible, Torah, or Qur'an...You're gonna need them
+---
+===
+Title: Prologue
+---
+Player: Finally, Lunch break! Perks of working at a mall food court is all the options!
+Player: But I suppose I should probably cash in all those cupons I have....Let's see here
+Player: A Free drink from Starbucks
+Player: A free sandwich of my choice from McDonalds
+Player: And free fries from Wendy's
+Player: Hang on, what's that crumbled at the bottom of my bag
+Player: ...
+Player: Oh! A free dessert from one of those three places..I'll see what I'm in the mood for once I'm done
+**<<jump Starbucks>>**
+===
+
+title: Starbucks
+---
+Star Bux: Hi Welcome to Starbucks, what can I get ya?"
+    -> Hi, One Iced Coffe with milk and sugar please.
+        **<<jump Basic>>**
+    -> I'll have a Neapolitan cappuccino, More cappu than ccino. Make sure It's got no more than four ounces of milk, the beans won't have the right texture otherwise
+        **<<jump Hipster>>**
+===
+
+title: Basic
+---
+Star Bux: Alright and I see you have a drink coupon there I can take that from you, and I'll call your name when it's ready...Oh! What's your name?
+    -> You can call me what you want, as long as you call me
+Player: 
+===
+
+title: Hipster
+---
+
+
+Narrator: What do you think of all this, then?
+    -> It's alright, I guess.
+        **<<jump Alright>>**
+    -> It's great. I love it.
+        **<<jump Starbucks>>**
