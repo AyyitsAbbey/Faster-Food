@@ -13,7 +13,7 @@ Player: And free fries from Wendy's
 Player: Hang on, what's that crumbled at the bottom of my bag
 Player: ...
 Player: Oh! A free dessert from one of those three places..I'll see what I'm in the mood for once I'm done
-**<<jump Starbucks>>**
+        **<<jump Starbucks>>**
 ===
 
 title: Starbucks
@@ -22,17 +22,30 @@ Star Bux: Hi Welcome to Starbucks, what can I get ya?"
     -> Hi, One Iced Coffe with milk and sugar please.
         **<<jump Basic>>**
     -> I'll have a Neapolitan cappuccino, More cappu than ccino. Make sure It's got no more than four ounces of milk, the beans won't have the right texture otherwise
-        **<<jump Hipster>>**
+Star Bux: Ok...you sure know your coffee, I'd also consider myself a coffee expert.
+Player: It's an art, making the perfect brew down to the smallest details...It's wonderful
+Star Bux: It is...Can I get a name for your order?
+Player: Oh it's *Player* 
+Star Bux: Well *Player* I'll call you when it's ready
+        **<<jump Pickup>>**
 ===
 
 title: Basic
 ---
 Star Bux: Alright and I see you have a drink coupon there I can take that from you, and I'll call your name when it's ready...Oh! What's your name?
     -> You can call me what you want, as long as you call me
-Player: 
+        **<<jump Seduced>>**
+    -> Oh it's *Player*
+Star Bux: Ok *Player* I'll call you when it's ready.
+Player: I'll be here
 ===
 
-title: Hipster
+title: Pickup
+Star Bux: *Player*?
+Player: Right here
+Player picks up the cup and as they go to take a sip, they notice that Star Bux has written her number on the cup with a winky face
+Player: Very fitting that this is how you ask me out.
+Star Bux: You don't have any obligation to do so...You can toss the cup and I won't be offended
 ---
 
 
