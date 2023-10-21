@@ -34,18 +34,25 @@ title: Basic
 ---
 Star Bux: Alright and I see you have a drink coupon there I can take that from you, and I'll call your name when it's ready...Oh! What's your name?
     -> You can call me what you want, as long as you call me
-        **<<jump Seduced>>**
     -> Oh it's *Player*
 Star Bux: Ok *Player* I'll call you when it's ready.
 Player: I'll be here
-===
+        **<<jump Pickup>>**
+
 
 title: Pickup
+---
 Star Bux: *Player*?
 Player: Right here
 Player picks up the cup and as they go to take a sip, they notice that Star Bux has written her number on the cup with a winky face
 Player: Very fitting that this is how you ask me out.
-Star Bux: You don't have any obligation to do so...You can toss the cup and I won't be offended
+Star Bux: You don't have any obligation to do so...You can toss the cup and I won't be offended.
+Player: Can I think on it?
+Star Bux: You can...but my shift ends at 4 so you gotta make it quick.
+
+
+*Player* leaves starbucks and pulls out their next cupon code for a free fries or salad from Wendy's
+
 ---
 
 
