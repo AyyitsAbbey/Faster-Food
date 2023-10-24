@@ -58,11 +58,18 @@ Wendy: Well, do whatever your heart is telling you to do
 Player: You
 Wendy: Excuse me?
 Player: Oh....I mean... What would you have chosen
-Wenduy: Y'know if you were trying to ask me out...I am single right now
+Wendy: Y'know if you were trying to ask me out...I am single right now..so if you wanted to make your move, I wouldn't mind...
+Player: ...
+Player: Can I have the
+    -> Fries
+        **<<jump Fries>>**
+    -> Salad
+        **<<jump Salad>>**
 
+===
+
+title: Fries
 ---
-
-
 Narrator: What do you think of all this, then?
     -> It's alright, I guess.
         **<<jump Alright>>**
