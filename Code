@@ -8,16 +8,16 @@ Title: Prologue
 Player: Finally, Lunch break! Perks of working at a mall food court is all the options!
 Player: But I suppose I should probably cash in all those cupons I have....Let's see here
 Player: A Free drink from Starbucks
-Player: A free sandwich of my choice from McDonalds
 Player: And free fries from Wendy's
 Player: Hang on, what's that crumbled at the bottom of my bag
 Player: ...
-Player: Oh! A free dessert from one of those three places..I'll see what I'm in the mood for once I'm done
+Player: Oh! A mall coupon for free dessert from any restaurant in the food court..I'll see what I'm in the mood for once I'm done
         **<<jump Starbucks>>**
 ===
 
 title: Starbucks
 ---
+*Player* Walks into starbucks and noticed the barista. Average build with a septum piercing and a "they/them" pronoun pin on their apron beside their name tag, which read "Star"
 Star Bux: Hi Welcome to Starbucks, what can I get ya?"
     -> Hi, One Iced Coffe with milk and sugar please.
         **<<jump Basic>>**
@@ -25,7 +25,7 @@ Star Bux: Hi Welcome to Starbucks, what can I get ya?"
 Star Bux: Ok...you sure know your coffee, I'd also consider myself a coffee expert.
 Player: It's an art, making the perfect brew down to the smallest details...It's wonderful
 Star Bux: It is...Can I get a name for your order?
-Player: Oh it's *Player* 
+Player: Oh it's *Player*
 Star Bux: Well *Player* I'll call you when it's ready
         **<<jump Pickup>>**
 ===
@@ -33,7 +33,7 @@ Star Bux: Well *Player* I'll call you when it's ready
 title: Basic
 ---
 Star Bux: Alright and I see you have a drink coupon there I can take that from you, and I'll call your name when it's ready...Oh! What's your name?
-    -> You can call me what you want, as long as you call me
+    -> You can call me what you want, as long as you call me...But the name on my birth certificate is *Player*
     -> Oh it's *Player*
 Star Bux: Ok *Player* I'll call you when it's ready.
 Player: I'll be here
@@ -44,7 +44,7 @@ title: Pickup
 ---
 Star Bux: *Player*?
 Player: Right here
-Player picks up the cup and as they go to take a sip, they notice that Star Bux has written her number on the cup with a winky face
+Player picks up the cup and as they go to take a sip, they notice that Star Bux has written their number on the cup with a winky face
 Player: Very fitting that this is how you ask me out.
 Star Bux: You don't have any obligation to do so...You can toss the cup and I won't be offended.
 Player: Can I think on it?
@@ -55,7 +55,7 @@ Star Bux: You can...but my shift ends at 4 so you gotta make it quick.
 Wendy: Welcome to Wendy's, what can I get ya?
 Player: I have a coupon here for a free fries or salad. Not sure what one I should get honestly.
 Wendy: Well, do whatever your heart is telling you to do
-Player: You
+Player: You...
 Wendy: Excuse me?
 Player: Oh....I mean... What would you have chosen
 Wendy: Y'know if you were trying to ask me out...I am single right now..so if you wanted to make your move, I wouldn't mind...
@@ -69,6 +69,24 @@ Player: Can I have the
 ===
 
 title: Fries
+Wendy: Well...Your fries are done, Here's your order...It was nice talking to you
+        **<<jump Order>>**
+
+title: Salad
+Wendy: Hey...Your salad's ready,,I put a couple extra dressing packets in there to make sure you had enough for the whole salad
+Player: Thanks, I was going to ask for extra dressing but I forgot
+        **<<jump Order>>**
+Wendy: It's all good, See you around I guess?
+Player: Maybe, I got a coupon for a free dessert from anywhere in the food court as a "Bonus" so maybe I'll spend it here.
+
+---
+
+===
+Title: Order
+Wendy: Well, I guess you'll probably be back for a frosty, it was nice meeting you....Uh...
+Player: *Player*
+Wendy: *Player*...You have a really nice name
+Playeer: Thanks, I picked it myself.
 ---
 Narrator: What do you think of all this, then?
     -> It's alright, I guess.
