@@ -87,9 +87,30 @@ Wendy: Well, I guess you'll probably be back for a frosty, it was nice meeting y
 Player: *Player*
 Wendy: *Player*...You have a really nice name
 Playeer: Thanks, I picked it myself.
+Player: I'll see you around right?
+Wendy: Well, my shift ends at 4 so if you want to make a move, that's when I'm off the clock.
+Player:...
+Player: I'll keep that in mind...I didn't get your name
+Wendy: Oh...It's Wendy, Nice meeting you again *Player*
 ---
-Narrator: What do you think of all this, then?
-    -> It's alright, I guess.
-        **<<jump Alright>>**
-    -> It's great. I love it.
-        **<<jump Starbucks>>**
+
+
+*Player* goes to sit down with their food and doomscrolls on their phone until their break is over, then it's back to work until 4pm and their shift is over. at this time they remember who they met earlier and who they believed would make a better partner
+Player: Let's see...Starbucks or Wendy's...
+    -> Starbucks
+        **<<jump Star>>**
+    -> Wendy's
+        **<<jump Wendy>>**
+
+title: Star
+---
+
+*Player* goes back to Starbucks and sees Star finishing up a drink and getting ready to take their apron off.
+Star: *Player* You decided to cash in that cake pop?
+Player: I did, I'll treat one for you too if you want
+Star: You'd do that?
+Player: I don't see why not, it's two friends getting food together and talking.
+Star: Y'know...we're hosting an open mic night for aspiring poets tonight if you wanted to stick around and check it out
+Player: I was never really into poetry, but if it's something you're into I'll stick around.
+Star: I'm performing my poetry tonight and I would appreciate it if you would come
+Player: Sure, you're my friend and I don't see why I can't support you
